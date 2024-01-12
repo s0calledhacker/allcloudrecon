@@ -20,7 +20,7 @@ Before using the script, ensure you have the following prerequisites installed o
 
 ## Usage
 
-To use CloudRecon, follow these steps:
+To use allcloudrecon, follow these steps:
 
 1. Clone this repository:
     
@@ -34,16 +34,16 @@ To use CloudRecon, follow these steps:
 
 3. Make the script executable:
     
-    chmod +x allcloudrecon.sh
+    chmod +x cloud-env-scan.sh
     
 
 4. Run the script:
     
-    ./allcloudrecon.sh
+    ./cloud-env-scan.sh
     
 
 ## Results
-
+This will run on threads 1000 and may takes days to complete.
 The script will generate a file named `cloudrecon.txt`, which contains information extracted from SSL certificates, including wildcard subdomains and other info.
 
 ## Disclaimer
