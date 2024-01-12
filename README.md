@@ -34,7 +34,7 @@ To use allcloudrecon, follow these steps:
 
 3. Make the script executable:
     
-    chmod +x cloud-env-scan.sh
+   sudo chmod +x cloud-env-scan.sh
     
 
 4. Run the script:
